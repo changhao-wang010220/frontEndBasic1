@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    width: 100%;
+    box-sizing : border-box;
+    border-color: white;
+    border-radius: 3px;
+    height: 1.75rem;
+}
+
+.container {
+    background-color: rgb(230, 228, 228);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.head {
+    display: grid;
+    text-align: center;
+    margin: 1rem;
+}
+.head h1 {
+    margin: 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.head p {
+    margin: 0;
+    color: grey;
+    font-size: 1.5rem;
+}
+#phone {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#message {
+    height: 15rem;
+    width: 100%;
+    box-sizing : border-box;
+    border-color: rgb(192, 192, 192);
+    border-radius: 3px;
+}
+.btnContainer {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    color: white;
+    background-color: yellowgreen;
+    border: transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.btn:hover {
+    background-color: rgb(125, 167, 42);
+}
+.btn:active {
+    background-color: rgb(101, 134, 34);
+}
+
+

@@ -1,0 +1,36 @@
+h2 {
+    margin: auto;
+    padding: 5pt;
+}
+p {
+    padding: 5pt;
+}
+h1 {
+    padding: 5pt;
+}
+.header {
+    background-color: lightcoral;
+    height: 70pt;
+}
+.container {
+    display: flex;
+    height: 400pt;
+}
+.lSide {
+    background-color: pink;
+    width: auto;
+}
+.rSide {
+    background-color: rgb(0, 225, 255);
+    width: 100pt;
+}
+.content {
+    background-color: rgb(255, 253, 119);
+    width: 100%;
+}
+.footer {
+    background-color: plum;
+    height: auto;
+}
+
+
